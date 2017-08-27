@@ -24,3 +24,13 @@ all you need is script this and reconstruct the text and url decode it hmm we ge
   
   
 <h2>Task : WEB (75) Dictator  <br></h2>
+Link: http://defcon.org.in:6063/<br>
+This one wasn't solved by many people although it was easy, so the description says you need to be from same country (North korea)<br>
+first it shows access denied as default <br>
+we change the X-Forwarded header we add a korean public ip  like :<br>
+<code>X-Forwarded-For	
+175.45.176.0</code>
+<br>Now we get an interesting message  : "You are not following the instructions given by the supreme-leader"
+<br>After changing a lot of stuff, what worked is changing user agent to a north korean user agent which is "Naenara"<br>
+change user agent value with : <code>Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.1b4) Gecko/20130508 Fedora/1.9.1-2.5.rs3.0 NaenaraBrowser/3.5b4</code><br>
+and we get our flag d4rk{Welcome_To_DictatorRuling.TogetherweshalltkeWorld}c0de
