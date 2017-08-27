@@ -63,4 +63,4 @@ d4rk{r0b075_7x7_4r3_v3ry_c0mm0n}c0de<br>
 we are with a png image containing some base64 in the end, we decode that, we get another png+base64,  we write down a script , and wait it to fetch all png files, we get that each image is a part from the flag <br>
 to regroup them all i used <code>montage final-*png -tile 6x5 -geometry +0+0 realfinal.png</code>
 <br>and we get the flag 
-![Screenshot](https://github.com/chmodxxx/HackConCTF_2017/blob/master/realfinal.png)
+![alt text](https://github.com/chmodxxx/HackConCTF_2017/blob/master/realfinal.png)
