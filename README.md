@@ -60,7 +60,6 @@ Disallow: /500786fbfb9cadc4834cd3783894239d<br>
 we navigate through http://defcon.org.in:6061/500786fbfb9cadc4834cd3783894239d/flag.txt and we get it : The flag is
 d4rk{r0b075_7x7_4r3_v3ry_c0mm0n}c0de<br>
 <h2>Task : Steg(50) White : <br></h2>
-we are with a png image containing some base64 in the end, we decode that, we get another png+base64,  we write down a script , and wait it to fetch all png files, we get that each image is a part from the flag 
-<p align="center">
-  <img src="https://ibb.co/hPgMsQ" width="350"/>
-</p>
+we are with a png image containing some base64 in the end, we decode that, we get another png+base64,  we write down a script , and wait it to fetch all png files, we get that each image is a part from the flag <br>
+to regroup them all i used <code>montage final-*png -tile 6x5 -geometry +0+0 realfinal.png</code>
+<br>and we get the flag ![Alt text](http://hpics.li/d29c15e ) 
