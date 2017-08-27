@@ -53,4 +53,12 @@ now we just decrypt and get our message=pow(c, d, n)<br>
 we get 0x6434726b7b315f37306c645f7930755f746831355f776f756c645f38655f6d6f72655f646966666963756c747d63306465L
 <br>After decoding the hex we find the flag : d4rk{1_70ld_y0u_th15_would_8e_more_difficult}c0de
 
-
+<h2>Task : Bachhe (10) flag.txt <br></h2>
+<br>Classic google wont find it challenge , we find robots.txt : <br>
+User-agent: *
+Disallow: /500786fbfb9cadc4834cd3783894239d<br>
+we navigate through http://defcon.org.in:6061/500786fbfb9cadc4834cd3783894239d/flag.txt and we get it : The flag is
+d4rk{r0b075_7x7_4r3_v3ry_c0mm0n}c0de<br>
+<h2>Task : Steg(50) White : <br></h2>
+we are with a png image containing some base64 in the end, we decode that, we get another png+base64,  we write down a script , and wait it to fetch all png files, we get that each image is a part from the flag 
+![alt text](https://ibb.co/hPgMsQ)
